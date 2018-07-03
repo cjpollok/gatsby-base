@@ -1,0 +1,20 @@
+@import '../colors';
+
+.container {
+    background: $header;
+}
+
+.menu {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.5rem 1rem;
+}
+
+.homeLink {
+    margin: 0;
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
