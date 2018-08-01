@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component renders correctly 1`] = `
+<footer
+  class="container"
+>
+  <div
+    class="menu"
+  >
+    <a
+      href="https://github.com/cjpollok/gatsby-base"
+      rel="nofollow"
+    >
+      See on GitHub
+    </a>
+  </div>
+</footer>
+`;

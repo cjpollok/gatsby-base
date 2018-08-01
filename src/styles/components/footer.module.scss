@@ -1,18 +1,18 @@
 @import '../colors';
 
 .container {
-    background: $footer;
-    color: $white;
+  background: $footer;
+  color: $white;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 1.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.5rem 1rem;
 
-    a {
-        color: $white;
-    }
+  a {
+    color: $white;
+  }
 }

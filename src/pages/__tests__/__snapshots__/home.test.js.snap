@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage Component renders correctly 1`] = `
+<a
+  href="/page-2/"
+>
+  Go to page 2
+</a>
+`;

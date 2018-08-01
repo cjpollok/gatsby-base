@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentWrapper Component renders correctly 1`] = `
+<section
+  class="container"
+>
+  <div
+    class="content"
+  >
+    <p>
+      Test Child
+    </p>
+  </div>
+</section>
+`;

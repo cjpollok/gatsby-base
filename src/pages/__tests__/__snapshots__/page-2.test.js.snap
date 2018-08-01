@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SecondPage Component renders correctly 1`] = `
+<a
+  href="/"
+>
+  Go back to the homepage
+</a>
+`;

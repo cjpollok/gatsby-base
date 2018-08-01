@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 Component renders correctly 1`] = `
+<p>
+  You just hit a route that doesn't exist.
+</p>
+`;

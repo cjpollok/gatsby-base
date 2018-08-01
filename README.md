@@ -26,8 +26,10 @@ Gatsby projects can be deployed to many [static site hosts](https://www.gatsbyjs
 
 - [Gatsby](https://www.gatsbyjs.org) - A static site generator for React
 - [React Helmet](https://github.com/nfl/react-helmet) - Manage changes to the document metadata (Header) element
-- [Sass](https://sass-lang.com) - a css preprocessor
+- [Sass](https://sass-lang.com) - A CSS preprocessor
 - [Eslint](https://eslint.org/) - An extended version of [Airbnb's .eslintrc](https://www.npmjs.com/package/eslint-config-airbnb)
+- [Stylelint](https://stylelint.io/) - The standard [config](https://github.com/stylelint/stylelint-config-standard)
+- [Jest](https://jestjs.io/) and [Enzyme](http://airbnb.io/enzyme/) - Testing framework and library for React
 
 ## License
 

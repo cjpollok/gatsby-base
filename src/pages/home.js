@@ -3,14 +3,14 @@ import Link from 'gatsby-link';
 
 import ContentWrapper from '../components/contentWrapper';
 
-export const SecondPageBase = () => (
-  <Link to="/">Go back to the homepage</Link>
+export const HomePageBase = () => (
+  <Link to="/page-2/">Go to page 2</Link>
 );
 
-const SecondPage = () => (
+const HomePage = () => (
   <ContentWrapper>
-    <SecondPageBase />
+    <HomePageBase />
   </ContentWrapper>
 );
 
-export default SecondPage;
+export default HomePage;
