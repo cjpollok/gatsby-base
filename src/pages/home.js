@@ -1,6 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
+import Layout from '../components/layout';
 import ContentWrapper from '../components/contentWrapper';
 
 export const HomePageBase = () => (
@@ -8,9 +9,11 @@ export const HomePageBase = () => (
 );
 
 const HomePage = () => (
-  <ContentWrapper>
-    <HomePageBase />
-  </ContentWrapper>
+  <Layout>
+    <ContentWrapper>
+      <HomePageBase />
+    </ContentWrapper>
+  </Layout>
 );
 
 export default HomePage;

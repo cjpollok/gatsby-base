@@ -1,15 +1,12 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { MemoryRouter } from 'react-router-dom';
 
-import HomePage, { HomePageBase } from '../home';
+import HomePage, { HomePageBase } from '../pages/home';
 
 describe('HomePage Component', () => {
   it('renders correctly', () => {
     const wrapper = mount(
-      <MemoryRouter>
-        <HomePage />
-      </MemoryRouter>
+      <HomePage />
     );
     const base = wrapper.find(HomePageBase);
     expect(base.render()).toMatchSnapshot();

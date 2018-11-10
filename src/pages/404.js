@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Layout from '../components/layout';
 import ContentWrapper from '../components/contentWrapper';
 
 export const NotFoundPageBase = () => (
@@ -7,9 +8,11 @@ export const NotFoundPageBase = () => (
 );
 
 const NotFoundPage = () => (
-  <ContentWrapper>
-    <NotFoundPageBase />
-  </ContentWrapper>
+  <Layout>
+    <ContentWrapper>
+      <NotFoundPageBase />
+    </ContentWrapper>
+  </Layout>
 );
 
 export default NotFoundPage;

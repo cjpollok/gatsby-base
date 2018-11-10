@@ -1,6 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
+import Layout from '../components/layout';
 import ContentWrapper from '../components/contentWrapper';
 
 export const SecondPageBase = () => (
@@ -8,9 +9,11 @@ export const SecondPageBase = () => (
 );
 
 const SecondPage = () => (
-  <ContentWrapper>
-    <SecondPageBase />
-  </ContentWrapper>
+  <Layout>
+    <ContentWrapper>
+      <SecondPageBase />
+    </ContentWrapper>
+  </Layout>
 );
 
 export default SecondPage;
