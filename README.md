@@ -1,5 +1,6 @@
 # gatsby-base
 A Gatsby setup for use as the base of other projects.
+([see the site here on netlify](https://elastic-benz-88a5e8.netlify.com/))
 
 ## Getting Started
 
@@ -20,7 +21,7 @@ All saved changes will live reload in the browser.
 
 ### Deployment
 
-Gatsby projects can be deployed to many [static site hosts](https://www.gatsbyjs.org/docs/deploy-gatsby/).
+Gatsby projects can be deployed to many [static site hosts](https://www.gatsbyjs.org/docs/deploying-and-hosting).
 
 ## Built With
 
