@@ -1,7 +1,7 @@
-import React from 'react';
-import { render } from 'enzyme';
+import React from 'react'
+import { render } from 'enzyme'
 
-import ContentWrapper from '../contentWrapper';
+import ContentWrapper from '../contentWrapper'
 
 describe('ContentWrapper Component', () => {
   it('renders correctly', () => {
@@ -9,7 +9,7 @@ describe('ContentWrapper Component', () => {
       <ContentWrapper>
         <p>Test Child</p>
       </ContentWrapper>
-    );
-    expect(wrapper).toMatchSnapshot();
-  });
-});
+    )
+    expect(wrapper).toMatchSnapshot()
+  })
+})

@@ -2,47 +2,25 @@
     "env": {
         "browser": true,
         "es6": true,
-        "jest": true
+        "jest": true,
     },
-    "extends": "airbnb",
+    "extends": [
+      "airbnb",
+      "eslint:recommended",
+      "prettier",
+      "prettier/react"
+    ],
     "globals": {
         "graphql": true
     },
     "rules": {
-        "comma-dangle": ["error", {
-            "arrays": "always-multiline",
-            "objects": "always-multiline",
-            "imports": "always-multiline",
-            "exports": "always-multiline",
-            "functions": "ignore"
-        }],
-        "function-paren-newline": ["error", "consistent"],
-        "import/no-extraneous-dependencies": [
-            "error",
-            {
-                "devDependencies": true
-            }
-        ],
-        "jsx-a11y/anchor-is-valid": [
-            "error",
-            {
-                "components": ["Link"],
-                "specialLink": ["to"],
-                "aspects": ["noHref", "invalidHref", "preferButton"]
-            }
-        ],
-        "linebreak-style": 0,
-        "no-underscore-dangle": [
-            "error",
-            {
-                "allowAfterThis": true
-            }
-        ],
-        "react/jsx-filename-extension": [
-            1,
-            { "extensions": [".js", ".jsx"] }
-        ]
+      "prettier/prettier": "error",
+      "react/jsx-filename-extension": [
+        1, { "extensions": [".js"] }
+      ]
     },
+    "parser": "babel-eslint",
+    "plugins": ["prettier"],
     "settings": {
         "import/core-modules": [
             "prop-types", "react", "react-router-dom"
