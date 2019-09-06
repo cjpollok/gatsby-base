@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Component renders correctly 1`] = `
+<div
+  className="container"
+>
+  <HelmetWrapper
+    defaultTitle="Gatsby Base"
+    defer={true}
+    encodeSpecialCharacters={true}
+    titleTemplate="%s | Gatsby Base"
+  >
+    <html
+      lang="en"
+    />
+    <link
+      href="test-file-stub"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <meta
+      content="A base Gatsby setup for use in other projects"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Header
+    siteTitle="Gatsby Base"
+  />
+  <p>
+    Test Child
+  </p>
+  <Footer />
+</div>
+`;

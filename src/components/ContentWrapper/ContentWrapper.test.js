@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'enzyme'
 
-import ContentWrapper from '../contentWrapper'
+import ContentWrapper from './ContentWrapper'
 
 describe('ContentWrapper Component', () => {
   it('renders correctly', () => {

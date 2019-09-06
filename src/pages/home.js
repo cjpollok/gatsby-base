@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
-import ContentWrapper from '../components/contentWrapper'
+import Layout from '../components/Layout'
+import ContentWrapper from '../components/ContentWrapper'
 
 export const HomePageBase = () => <Link to="/page-2/">Go to page 2</Link>
 

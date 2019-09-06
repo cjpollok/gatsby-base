@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 
-import Header from './header'
-import Footer from './footer'
+import Header from '../Header'
+import Footer from '../Footer'
 
-import '../styles/main.scss'
-import styles from '../styles/components/index.module.scss'
-import favicon from '../images/favicon.ico'
+import '../../styles/main.scss'
+import styles from './layout.module.scss'
+import favicon from '../../images/favicon.ico'
 
 const Layout = ({ children }) => (
   <div className={styles.container}>

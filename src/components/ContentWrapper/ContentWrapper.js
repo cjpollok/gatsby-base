@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import styles from '../styles/components/contentWrapper.module.scss'
+import styles from './contentWrapper.module.scss'
 
 const ContentWrapper = ({ children }) => (
   <section className={styles.container}>

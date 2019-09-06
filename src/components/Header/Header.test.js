@@ -1,11 +1,11 @@
 import React from 'react'
 import { render } from 'enzyme'
 
-import Footer from '../footer'
+import Header from './Header'
 
-describe('Footer Component', () => {
+describe('Header Component', () => {
   it('renders correctly', () => {
-    const wrapper = render(<Footer />)
+    const wrapper = render(<Header siteTitle="Site Title" />)
     expect(wrapper).toMatchSnapshot()
   })
 })
